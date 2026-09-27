@@ -14,18 +14,18 @@ const productImages = {
 };
 
 const products = [
-  {id:1,name:'Corset Branco de Renda',category:'corsets',label:'DESTAQUE',tone:'Branco · renda floral e alças finas',description:'Corset branco com bojo estruturado, renda floral e alças finas.',cardDescription:'Renda floral e recortes estruturados. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
-  {id:2,name:'Corset Rosa Coração',category:'corsets',label:'NOVO',tone:'Rosa · decote coração',description:'Corset rosa com decote coração, acabamento estampado em relevo e barra em ponta.',cardDescription:'Decote coração e acabamento delicado. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
-  {id:3,name:'Corset Azul Rendado',category:'corsets',label:'NOVO',tone:'Azul claro · renda floral',description:'Corset azul claro com renda floral, bojo estruturado e transparência nos recortes.',cardDescription:'Renda floral azul com recortes transparentes. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
-  {id:4,name:'Corset Marrom Rendado',category:'corsets',label:'NOVO',tone:'Marrom · renda e estrutura',description:'Corset marrom com bojo estruturado, renda delicada e modelagem alongada.',cardDescription:'Tom marrom e renda delicada para compor o look. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
-  {id:5,name:'Calça Jeans Wide Leg',category:'jeans',label:'NOVO',tone:'Jeans azul escuro · perna ampla',description:'Calça jeans azul escuro de modelagem ampla, usada com corset branco rendado na foto.',cardDescription:'Modelagem wide leg em jeans azul. Consulte tamanhos e lavagem pelo WhatsApp.',contactOnly:true},
-  {id:6,name:'Corset Preto Rendado',category:'corsets',label:'NOVO',tone:'Preto · bojo estruturado',description:'Corset preto com bojo estruturado, detalhes em renda e modelagem ajustada.',cardDescription:'Preto versátil com acabamento rendado. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
-  {id:7,name:'Corset Marrom de Poá',category:'corsets',label:'NOVO',tone:'Marrom · poá branco e tule',description:'Corset marrom com estampa de poá branco, tule transparente e alças finas.',cardDescription:'Poá branco sobre tule marrom. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
-  {id:8,name:'Blusa Branca de Poá',category:'tops',label:'NOVO',tone:'Branco · poá preto e alças largas',description:'Blusa branca de alças largas com estampa de poá preto.',cardDescription:'Estampa clássica de poá com alças largas. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
-  {id:9,name:'Blusa Rosa de Poá',category:'tops',label:'NOVO',tone:'Rosa · poá branco e alças largas',description:'Blusa rosa com estampa de poá branco, alças largas e franzido frontal.',cardDescription:'Rosa com poá branco e frente franzida. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
-  {id:10,name:'Corset Cinza de Tule',category:'corsets',label:'NOVO',tone:'Cinza · tule transparente e viés claro',description:'Corset cinza de tule transparente, com bojo estruturado e recortes com viés claro.',cardDescription:'Tule transparente e recortes contrastantes. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
-  {id:11,name:'Corset Branco Rendado',category:'corsets',label:'NOVO',tone:'Branco · renda floral e barra delicada',description:'Corset branco rendado com decote reto e acabamento delicado na barra.',cardDescription:'Renda floral branca em modelagem estruturada. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
-  {id:12,name:'Corset Preto de Poá',category:'corsets',label:'NOVO',tone:'Preto · poá branco e tule',description:'Corset preto com bojo de poá branco, corpo em tule transparente e alças finas.',cardDescription:'Poá branco e tule transparente em contraste. Consulte tamanhos pelo WhatsApp.',contactOnly:true}
+  {id:1,name:'Corset Branco de Renda',category:'corsets',label:'DESTAQUE',tone:'Branco Â· renda floral e alÃ§as finas',description:'Corset branco com bojo estruturado, renda floral e alÃ§as finas.',cardDescription:'Renda floral e recortes estruturados. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
+  {id:2,name:'Corset Rosa CoraÃ§Ã£o',category:'corsets',label:'NOVO',tone:'Rosa Â· decote coraÃ§Ã£o',description:'Corset rosa com decote coraÃ§Ã£o, acabamento estampado em relevo e barra em ponta.',cardDescription:'Decote coraÃ§Ã£o e acabamento delicado. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
+  {id:3,name:'Corset Azul Rendado',category:'corsets',label:'NOVO',tone:'Azul claro Â· renda floral',description:'Corset azul claro com renda floral, bojo estruturado e transparÃªncia nos recortes.',cardDescription:'Renda floral azul com recortes transparentes. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
+  {id:4,name:'Corset Marrom Rendado',category:'corsets',label:'NOVO',tone:'Marrom Â· renda e estrutura',description:'Corset marrom com bojo estruturado, renda delicada e modelagem alongada.',cardDescription:'Tom marrom e renda delicada para compor o look. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
+  {id:5,name:'CalÃ§a Jeans Wide Leg',category:'jeans',label:'NOVO',tone:'Jeans azul escuro Â· perna ampla',description:'CalÃ§a jeans azul escuro de modelagem ampla, usada com corset branco rendado na foto.',cardDescription:'Modelagem wide leg em jeans azul. Consulte tamanhos e lavagem pelo WhatsApp.',contactOnly:true},
+  {id:6,name:'Corset Preto Rendado',category:'corsets',label:'NOVO',tone:'Preto Â· bojo estruturado',description:'Corset preto com bojo estruturado, detalhes em renda e modelagem ajustada.',cardDescription:'Preto versÃ¡til com acabamento rendado. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
+  {id:7,name:'Corset Marrom de PoÃ¡',category:'corsets',label:'NOVO',tone:'Marrom Â· poÃ¡ branco e tule',description:'Corset marrom com estampa de poÃ¡ branco, tule transparente e alÃ§as finas.',cardDescription:'PoÃ¡ branco sobre tule marrom. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
+  {id:8,name:'Blusa Branca de PoÃ¡',category:'tops',label:'NOVO',tone:'Branco Â· poÃ¡ preto e alÃ§as largas',description:'Blusa branca de alÃ§as largas com estampa de poÃ¡ preto.',cardDescription:'Estampa clÃ¡ssica de poÃ¡ com alÃ§as largas. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
+  {id:9,name:'Blusa Rosa de PoÃ¡',category:'tops',label:'NOVO',tone:'Rosa Â· poÃ¡ branco e alÃ§as largas',description:'Blusa rosa com estampa de poÃ¡ branco, alÃ§as largas e franzido frontal.',cardDescription:'Rosa com poÃ¡ branco e frente franzida. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
+  {id:10,name:'Corset Cinza de Tule',category:'corsets',label:'NOVO',tone:'Cinza Â· tule transparente e viÃ©s claro',description:'Corset cinza de tule transparente, com bojo estruturado e recortes com viÃ©s claro.',cardDescription:'Tule transparente e recortes contrastantes. Consulte tamanhos pelo WhatsApp.',contactOnly:true},
+  {id:11,name:'Corset Branco Rendado',category:'corsets',label:'NOVO',tone:'Branco Â· renda floral e barra delicada',description:'Corset branco rendado com decote reto e acabamento delicado na barra.',cardDescription:'Renda floral branca em modelagem estruturada. Consulte disponibilidade pelo WhatsApp.',contactOnly:true},
+  {id:12,name:'Corset Preto de PoÃ¡',category:'corsets',label:'NOVO',tone:'Preto Â· poÃ¡ branco e tule',description:'Corset preto com bojo de poÃ¡ branco, corpo em tule transparente e alÃ§as finas.',cardDescription:'PoÃ¡ branco e tule transparente em contraste. Consulte tamanhos pelo WhatsApp.',contactOnly:true}
 ];
 
 const $ = (s,r=document)=>r.querySelector(s);
@@ -80,18 +80,18 @@ function productCard(p,i){
     <div class="product-image">
       <img src="${productImages[p.id]}" alt="${p.name}" loading="lazy">
       <span class="product-label"${p.label==='DESTAQUE'?' data-featured':''}>${p.label}</span>
-      <button class="favorite-button ${fav?'is-favorite':''}" data-favorite="${p.id}" aria-label="${fav?'Remover dos favoritos':'Adicionar aos favoritos'}" aria-pressed="${fav}">${fav?'?':'?'}</button>
+      <button class="favorite-button ${fav?'is-favorite':''}" data-favorite="${p.id}" aria-label="${fav?'Remover dos favoritos':'Adicionar aos favoritos'}" aria-pressed="${fav}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5-8.8 10.2-8.8 10.2S3.2 13.8 3.2 8.8a4.7 4.7 0 0 1 8.8-2.3 4.7 4.7 0 0 1 8.8 2.3Z"/></svg></button>
+    </div>
+    <div class="product-info">
+      <span class="product-category">${categoryName[p.category]||'Moda feminina'}</span>
+      <div class="product-title-row"><h3 class="product-title">${p.name}</h3></div>
+      <p class="product-card-description">${p.description}</p>
       <div class="product-card-actions">
-        <button class="quick-add" data-quick-add="${p.id}">CONSULTAR PEÇA <span>?</span></button>
-        <button type="button" class="card-add-cart" data-card-add="${p.id}" aria-label="Adicionar ${p.name} à lista" title="Adicionar à lista">
+        <button class="quick-add" data-quick-add="${p.id}">VER DETALHES <span>â†—</span></button>
+        <button type="button" class="card-add-cart" data-card-add="${p.id}" aria-label="Adicionar ${p.name} Ã  lista" title="Adicionar Ã  lista">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
         </button>
       </div>
-    </div>
-    <div class="product-info">
-      <div class="product-title-row"><h3 class="product-title">${p.name}</h3></div>
-      <p class="product-meta">${p.tone}</p>
-      ${p.cardDescription?`<p class="product-card-description">${p.cardDescription}</p>`:''}
     </div>
   </article>`;
 }
@@ -125,7 +125,7 @@ function toggleFavorite(id){
   favorites = favorites.includes(n) ? favorites.filter(i=>i!==n) : [...favorites,n];
   $('#favoriteCount').textContent = favorites.length;
   persist(); renderProducts();
-  toast(favorites.includes(n)?'Peça salva':'Peça removida');
+  toast(favorites.includes(n)?'PeÃ§a salva':'PeÃ§a removida');
 }
 
 function renderCart(){
@@ -139,7 +139,7 @@ function renderCart(){
 function addToCart(id){
   const productId=Number(id);
   if(!cart.includes(productId)) cart.push(productId);
-  persist(); renderCart(); toast('Peça adicionada à sua lista');
+  persist(); renderCart(); toast('PeÃ§a adicionada Ã  sua lista');
 }
 function removeFromCart(id){
   cart=cart.filter(productId=>productId!==Number(id));
@@ -153,12 +153,12 @@ function openProduct(id){
   $('#modalContent').innerHTML = `<div class="modal-product">
     <div class="modal-product-image" style="--product-photo:url('${productImages[p.id]}')"><img src="${productImages[p.id]}" alt="${p.name}"></div>
     <div class="modal-product-info">
-      <p class="eyebrow">${categoryName[p.category]||'Moda'} · ${p.label}</p>
+      <p class="eyebrow">${categoryName[p.category]||'Moda'} Â· ${p.label}</p>
       <h2>${p.name}</h2>
       <p class="modal-description">${p.description}</p>
       <p class="modal-description">Consulte pelo WhatsApp o valor, as cores, os tamanhos e a disponibilidade.</p>
-      <button type="button" class="button button-outline modal-add" data-add-selection="${p.id}">ADICIONAR À LISTA</button>
-      <a class="button modal-add modal-add-whatsapp" href="https://wa.me/${shopWhatsAppNumber}?text=${encodeURIComponent('Olá! Tenho interesse em ' + p.name + '. Pode me informar valor, cores e tamanhos disponíveis?')}" target="_blank" rel="noopener">
+      <button type="button" class="button button-outline modal-add" data-add-selection="${p.id}">ADICIONAR Ã€ LISTA</button>
+      <a class="button modal-add modal-add-whatsapp" href="https://wa.me/${shopWhatsAppNumber}?text=${encodeURIComponent('OlÃ¡! Tenho interesse em ' + p.name + '. Pode me informar valor, cores e tamanhos disponÃ­veis?')}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.1L3.5 20l1.2-4.3a8.2 8.2 0 1 1 15.5-4Z"/><path d="M8.2 7.8c.2-.4.5-.5.8-.5h.4c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .6.4.7 1 1.3 1.7 1.7.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.7.8c.3.1.4.3.4.5 0 .4-.2 1.1-.6 1.4-.4.4-1 .6-1.6.5-1-.1-2.2-.7-3.5-1.8-1.1-1-1.9-2.2-2.1-3.2-.2-.9.1-1.8.5-2.5Z"/></svg>
         CHAMAR NO WHATSAPP <span>?</span>
       </a>
@@ -199,7 +199,7 @@ $('#searchToggle').addEventListener('click', ()=>{ const open=$('#searchPanel').
 $('#searchClose').addEventListener('click', ()=>{ $('#searchPanel').classList.remove('open'); $('#searchToggle').setAttribute('aria-expanded','false'); $('#searchInput').value=''; searchTerm=''; renderProducts(); $('#searchToggle').focus(); });
 $('#searchInput').addEventListener('input', e=>{ searchTerm=e.target.value.trim(); favoriteMode=false; renderProducts(); });
 $('#favoriteToggle').addEventListener('click', ()=>{
-  if(!favorites.length){ toast('Toque no coração de uma peça'); return; }
+  if(!favorites.length){ toast('Toque no coraÃ§Ã£o de uma peÃ§a'); return; }
   favoriteMode=!favoriteMode; activeCategory='all';
   $('#favoriteToggle').classList.toggle('is-selected',favoriteMode);
   renderProducts(); $('#produtos').scrollIntoView({behavior:'smooth'});
@@ -212,7 +212,7 @@ $('#mobileClose').addEventListener('click', closeMobile);
 $('#mobileMenu').addEventListener('click', e=>{ if(e.target.closest('a:not([data-category])')) closeMobile(); });
 $('#mobileFavorites').addEventListener('click', ()=>{
   closeMobile();
-  if(!favorites.length){ toast('Toque no coração de uma peça para salvá-la'); return; }
+  if(!favorites.length){ toast('Toque no coraÃ§Ã£o de uma peÃ§a para salvÃ¡-la'); return; }
   activeCategory='all'; favoriteMode=true; $('#favoriteToggle').classList.add('is-selected');
   renderProducts(); $('#produtos').scrollIntoView({behavior:'smooth'});
 });
@@ -235,7 +235,7 @@ document.addEventListener('keydown', e=>{
 const heroSlidesData = [
   { num:'01', text:'Corset nude de renda' },
   { num:'02', text:'Blusa canelada marrom' },
-  { num:'03', text:'Blusa branca de poá' }
+  { num:'03', text:'Blusa branca de poÃ¡' }
 ];
 
 function initHeroCarousel(){
