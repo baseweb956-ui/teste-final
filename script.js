@@ -1,4 +1,4 @@
-const productImages = {
+﻿const productImages = {
   1:'ima_carossel/ima_cads/826070855_18159291304505078_8157389329216769723_n.jpg',
   2:'ima_carossel/ima_cads/819785127_18158843302505078_2739265618393793876_n.jpg',
   3:'ima_carossel/ima_cads/819802603_18158863942505078_6007571965587448520_n.jpg',
@@ -160,7 +160,7 @@ function openProduct(id){
       <button type="button" class="button button-outline modal-add" data-add-selection="${p.id}">ADICIONAR À LISTA</button>
       <a class="button modal-add modal-add-whatsapp" href="https://wa.me/${shopWhatsAppNumber}?text=${encodeURIComponent('Olá! Tenho interesse em ' + p.name + '. Pode me informar valor, cores e tamanhos disponíveis?')}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.1L3.5 20l1.2-4.3a8.2 8.2 0 1 1 15.5-4Z"/><path d="M8.2 7.8c.2-.4.5-.5.8-.5h.4c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .6.4.7 1 1.3 1.7 1.7.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.7.8c.3.1.4.3.4.5 0 .4-.2 1.1-.6 1.4-.4.4-1 .6-1.6.5-1-.1-2.2-.7-3.5-1.8-1.1-1-1.9-2.2-2.1-3.2-.2-.9.1-1.8.5-2.5Z"/></svg>
-        CHAMAR NO WHATSAPP <span>?</span>
+        CHAMAR NO WHATSAPP <span>↗</span>
       </a>
     </div>
   </div>`;
@@ -235,7 +235,6 @@ document.addEventListener('keydown', e=>{
 const heroSlidesData = [
   { num:'01', text:'Corset nude de renda' },
   { num:'02', text:'Blusa canelada marrom' },
-  { num:'03', text:'Blusa branca de poá' }
 ];
 
 function initHeroCarousel(){
@@ -396,3 +395,9 @@ renderProducts();
 initHeroCarousel();
 initScrollReveal();
 initHeaderScroll();
+
+/* Imagem que falhar ao carregar: esconde o ícone quebrado e mantém o fundo do card */
+document.addEventListener('error', e=>{
+  const img=e.target;
+  if(img && img.tagName==='IMG'){ img.classList.add('img-broken'); console.warn('Imagem não encontrada:', img.getAttribute('src')); }
+}, true);

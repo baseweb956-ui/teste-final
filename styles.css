@@ -69,17 +69,14 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
 .search-field input{flex:1;border:0;background:transparent;outline:0;padding:12px 0;font-size:18px}
 .search-field button{font-size:28px;font-weight:300}
 
-/* ================= HERO ================= */
 .hero{max-width:1600px;margin:0 auto;padding:26px clamp(20px,5vw,76px) 62px;display:grid;grid-template-columns:1.16fr .84fr;gap:0;position:relative;min-height:610px;isolation:isolate;perspective:1400px}
 
 .hero-glow{position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none;z-index:-1;opacity:0}
 .hero-glow-a{width:440px;height:440px;background:radial-gradient(circle,#e2aa8f 0%,transparent 70%);left:-120px;top:60px;animation:glowIn 1.2s var(--ease) .3s forwards,glowFloat 9s ease-in-out 1.6s infinite}
 .hero-glow-b{width:380px;height:380px;background:radial-gradient(circle,#c56c4d99 0%,transparent 70%);right:8%;bottom:-60px;animation:glowIn 1.2s var(--ease) .5s forwards,glowFloat 11s ease-in-out 1.8s infinite reverse}
 
-/* ---- CARD ---- */
 .hero-photo{grid-column:1;grid-row:1;position:relative;min-height:560px;opacity:0;transform:translateY(22px) scale(.98);animation:heroPhotoIn 1.1s var(--ease) .15s forwards;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.75,.25,1);}
 
-/* Sombra projetada atrás do cartão, com penumbra suave e maior peso na base. */
 .hero-photo::before{content:"";position:absolute;z-index:0;inset:8px 6px -8px;border-radius:28px;background:rgba(29,25,22,.24);filter:blur(16px);opacity:.62;transform:translateY(15px) scale(.97);transition:opacity .5s ease,filter .5s ease,transform .5s ease;}
 
 .hero-photo-clip{
@@ -95,7 +92,6 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
   box-shadow:0 2px 5px rgba(30,25,22,.14),0 12px 24px -10px rgba(30,25,22,.27),0 0 0 1px rgba(55,45,39,.11);
 }
 
-/* Interface mais limpa para deixar o look ser o foco do carrossel. */
 .hero-grain{display:none}
 .hero-corner,.hero-side-label,.hero-sticker{display:none}
 .hero-wipe{display:none}
@@ -298,7 +294,6 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
 .hero-sticker span{display:block;width:100%;text-align:center;font-size:10px;line-height:1.15;font-weight:800;letter-spacing:.4px;position:relative;z-index:1}
 .hero-sticker b{position:absolute;top:8px;right:13px;font-size:14px;line-height:1;z-index:1}
 
-/* ---- COPY ---- */
 .hero-copy{
   grid-column:2;grid-row:1;display:flex;flex-direction:column;justify-content:center;
   padding:44px clamp(32px,6vw,96px);
@@ -361,7 +356,6 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
 @keyframes stickerIn{0%{opacity:0;transform:rotate(-40deg) scale(.4)}60%{opacity:1;transform:rotate(-4deg) scale(1.1)}100%{opacity:1;transform:rotate(-9deg) scale(1)}}
 @keyframes stickerInMobile{0%{opacity:0;transform:rotate(-30deg) scale(.4)}60%{opacity:1;transform:rotate(12deg) scale(1.1)}100%{opacity:1;transform:rotate(8deg) scale(1)}}
 @keyframes badgePulse{0%,100%{box-shadow:0 12px 30px rgba(33,31,28,.24),0 0 0 0 rgba(197,108,77,0)}50%{box-shadow:0 12px 30px rgba(33,31,28,.24),0 0 0 14px rgba(197,108,77,.14)}}
-/* =============== FIM HERO =============== */
 
 .section-wrap{max-width:1440px;margin:0 auto;padding-left:clamp(20px,5vw,76px);padding-right:clamp(20px,5vw,76px)}
 .section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:28px}
@@ -371,7 +365,6 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
 .text-link:hover{color:var(--rust);border-color:var(--rust)}
 .text-link span{color:var(--rust);margin-left:10px;display:inline-block;transition:transform .25s var(--ease)}
 .text-link:hover span{transform:translateX(3px)}
-
 
 .product-section{background:var(--white);padding:58px 0 78px}
 .product-heading{margin-bottom:21px}
@@ -419,7 +412,6 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
 .button-outline:hover{background:var(--ink);color:#fff;transform:translateY(-2px)}
 .no-results{padding:60px 0;text-align:center;color:var(--muted)}
 
-/* Refinamento dos cards e das ações do catálogo */
 .product-grid{gap:38px 22px}
 .product-card{border-radius:20px;transition:opacity .5s ease,filter .6s ease,transform .6s var(--ease)}
 .product-image{border:1px solid rgba(33,31,28,.07);border-radius:20px;box-shadow:0 5px 16px rgba(33,31,28,.07)}
@@ -458,7 +450,6 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
   .product-card-description{font-size:10px;line-height:1.45}
 }
 
-/* Cards: hierarchy simples para nome e descrição não disputarem espaço. */
 .product-info{display:flex;flex-direction:column;align-items:flex-start;min-height:108px;padding:13px 3px 0;}
 .product-title{width:100%;font-size:14px;line-height:1.35;min-height:2.7em;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;}
 .product-meta{display:none;}
@@ -731,7 +722,6 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
   .modal-add{min-height:48px;margin-top:13px}
 }
 
-/* Grade do catálogo: texto curto, alinhado e com altura previsível. */
 .product-info{display:flex;flex-direction:column;align-items:flex-start;min-height:108px;padding:13px 3px 0}
 .product-title{width:100%;font-size:14px;line-height:1.35;min-height:2.7em;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
 .product-meta{display:none}
@@ -751,7 +741,6 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
   .card-add-cart{width:36px;height:36px}
 }
 
-/* Cartao editorial: foto em destaque e acoes organizadas fora da imagem. */
 .product-card{overflow:hidden;padding:8px 8px 11px;border:1px solid #e8e0d5;border-radius:19px;background:linear-gradient(145deg,#fffefa,#f8f4ed);box-shadow:0 7px 20px rgba(47,37,29,.06);transition:opacity .5s ease,filter .6s ease,transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s ease}
 .product-card:hover,.product-card:focus-within{transform:translateY(-5px);border-color:#d6b8a7;box-shadow:0 17px 34px rgba(47,37,29,.13)}
 .product-image{aspect-ratio:4/5;border:0;border-radius:13px;box-shadow:none;overflow:hidden;background:#eee8df}
@@ -789,7 +778,6 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
   .card-add-cart svg{width:16px;height:16px}
 }
 
-/* Direcao editorial para a vitrine de produtos. */
 @media(min-width:1051px){.product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 26px}}
 .product-card{position:relative;padding:9px 9px 13px;border:1px solid #e5d9cc;border-radius:23px;background:#fffdf9;box-shadow:0 8px 22px rgba(43,34,27,.055)}
 .product-card::before{content:"";position:absolute;z-index:0;top:0;right:0;width:92px;height:92px;border-radius:0 22px 0 100%;background:linear-gradient(135deg,rgba(184,73,46,.10),rgba(226,170,143,.02));pointer-events:none}
@@ -847,4 +835,30 @@ svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
   .product-title-row{min-height:2.4em}
   .product-title{font-size:13px;line-height:1.2}
   .product-card-actions{padding-top:9px}
+}
+
+#produtos,#sobre,#novidades,#ajuda{scroll-margin-top:96px}
+h1,h2,.hero-title{text-wrap:balance}
+p{text-wrap:pretty}
+::selection{background:var(--rust);color:#fff}
+:focus-visible{outline:2px solid var(--rust);outline-offset:3px}
+.button,.filter-chip,.icon-button,.quick-add,.card-add-cart{transition:transform .25s var(--ease),background .25s,color .25s,box-shadow .25s}
+.button:active,.filter-chip:active,.quick-add:active,.card-add-cart:active{transform:scale(.97)}
+.filter-chip.is-selected{box-shadow:0 8px 20px -10px rgba(33,31,28,.5)}
+.img-broken{visibility:hidden}
+.product-image,.modal-product-image{background:linear-gradient(135deg,#eee9e1,#e4ddd0)}
+.product-section,.brand-story,.review-strip,.newsletter,.site-footer{content-visibility:auto;contain-intrinsic-size:auto 700px}
+.product-card{will-change:opacity,transform}
+.product-card.is-visible{will-change:auto}
+img{max-width:100%}
+@media (max-width:760px){
+  .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 12px}
+  .filter-row{overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .filter-row::-webkit-scrollbar{display:none}
+  .filter-chip{flex:none}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  .product-card{filter:none;transform:none}
 }
